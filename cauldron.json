@@ -12,7 +12,26 @@
   "nativeApps": [
     {
       "name": "walmartupdate",
-      "platforms": []
+      "platforms": [
+        {
+          "name": "ios",
+          "versions": [
+            {
+              "name": "1.0",
+              "isReleased": false,
+              "binary": null,
+              "yarnLocks": {},
+              "nativeDeps": [],
+              "container": {
+                "miniApps": [],
+                "nativeDeps": [],
+                "jsApiImpls": []
+              },
+              "codePush": {}
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "test",
