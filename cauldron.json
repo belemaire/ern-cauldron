@@ -1,36 +1,34 @@
 {
-  "minErnVersion":"0.10.0",
-  "config":{
-    "binaryStore":{
-      "provider":"ern-binary-store",
-      "url":"http://localhost:3000"
+  "minErnVersion": "0.10.0",
+  "config": {
+    "binaryStore": {
+      "provider": "ern-binary-store",
+      "url": "http://localhost:3000"
     },
-    "codePush":{
-      "entriesLimit":2
+    "codePush": {
+      "entriesLimit": 2
     }
   },
-  "nativeApps":[
+  "nativeApps": [
     {
-      "name":"walmartupdate",
-      "platforms":[
+      "name": "walmartupdate",
+      "platforms": [
         {
-          "name":"ios",
-          "versions":[
+          "name": "ios",
+          "versions": [
             {
-              "name":"1.0",
-              "isReleased":false,
-              "binary":null,
-              "yarnLocks":{
-
+              "name": "1.0",
+              "isReleased": false,
+              "binary": null,
+              "yarnLocks": {
+                "container": "f532b7556da7811426357dad92487c1b47e8944b"
               },
-              "nativeDeps":[
-
-              ],
-              "container":{
-                "miniApps":[
+              "nativeDeps": [],
+              "container": {
+                "miniApps": [
                   "git+ssh://git@gecgithub01.walmart.com:b0m00ca/Cart.git#master"
                 ],
-                "nativeDeps":[
+                "nativeDeps": [
                   "@walmart/react-native-ccm-api@1.0.6",
                   "@walmart/react-native-walmart-location-api@0.0.2",
                   "@walmart/react-native-walmartanalytics-api@0.19.1",
@@ -43,26 +41,22 @@
                   "react-native-code-push@5.2.1",
                   "react-native-electrode-bridge@1.5.9"
                 ],
-                "jsApiImpls":[
-
-                ]
+                "jsApiImpls": []
               },
-              "codePush":{
-
-              },
-              "containerVersion":"1.0.0"
+              "codePush": {},
+              "containerVersion": "1.0.1"
             }
           ],
-          "config":{
-            "containerGenerator":{
-              "name":"github",
-              "targetRepoUrl":"https://github.com/gmbharath12/react-container-ios",
-              "ignoreRnpmAssets":true,
-              "containerVersion":"1.0.0",
-              "publishers":[
+          "config": {
+            "containerGenerator": {
+              "name": "github",
+              "targetRepoUrl": "https://github.com/gmbharath12/react-container-ios",
+              "ignoreRnpmAssets": true,
+              "containerVersion": "1.0.1",
+              "publishers": [
                 {
-                  "name":"github",
-                  "url":"https://github.com/gmbharath12/react-container-ios"
+                  "name": "github",
+                  "url": "https://github.com/gmbharath12/react-container-ios"
                 }
               ]
             }
@@ -71,5 +65,5 @@
       ]
     }
   ],
-  "schemaVersion":"1.0.0"
+  "schemaVersion": "1.0.0"
 }
