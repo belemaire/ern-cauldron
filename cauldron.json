@@ -12,26 +12,7 @@
   "nativeApps": [
     {
       "name": "walmartupdate",
-      "platforms": [
-        {
-          "name": "ios",
-          "versions": [],
-          "config": {
-            "containerGenerator": {
-              "name": "github",
-              "targetRepoUrl": "https://github.com/gmbharath12/react-container-ios",
-              "ignoreRnpmAssets": true,
-              "containerVersion": "1.0.0",
-              "publishers": [
-                {
-                  "name": "github",
-                  "url": "https://github.com/gmbharath12/react-container-ios"
-                }
-              ]
-            }
-          }
-        }
-      ]
+      "platforms": []
     },
     {
       "name": "test",
