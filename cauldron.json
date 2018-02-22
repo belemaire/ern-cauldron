@@ -1,59 +1,75 @@
 {
-	"minErnVersion": "0.10.0",
-	"config": {
-		"binaryStore": {
-			"provider": "ern-binary-store",
-			"url": "http://localhost:3000"
-		},
-		"codePush": {
-			"entriesLimit": 2
-		}
-	},
-	"nativeApps": [{
-		"name": "walmartupdate",
-		"platforms": [{
-			"name": "ios",
-			"versions": [{
-				"name": "1.0",
-				"isReleased": false,
-				"binary": null,
-				"yarnLocks": {},
-				"nativeDeps": [],
-				"container": {
-					"miniApps": [
-						"git+ssh://git@gecgithub01.walmart.com:react-native/Cart.git#master"
-					],
-					"nativeDeps": [
-						"@walmart/react-native-ccm-api@1.0.6",
-						"@walmart/react-native-walmart-location-api@0.0.2",
-						"@walmart/react-native-walmartanalytics-api@0.19.1",
-						"@walmart/react-native-walmartcookie-api@0.18.2",
-						"@walmart/react-native-walmartheader-api@0.0.10",
-						"@walmart/react-native-walmartnavigation-api@0.18.4",
-						"@walmart/react-native-walmartstate-api@0.32.1",
-						"@walmart/react-native-walmartuserauth-api@0.18.4",
-						"react-native@0.42.0",
-						"react-native-code-push@1.17.1-beta",
-						"react-native-electrode-bridge@1.5.9"
-					],
-					"jsApiImpls": []
-				},
-				"codePush": {},
-				"containerVersion": "1.0.0"
-			}],
-			"config": {
-				"containerGenerator": {
-					"name": "github",
-					"targetRepoUrl": "git@github.com:gmbharath12/react-container-ios.git",
-					"ignoreRnpmAssets": true,
-					"containerVersion": "1.0.0",
-					"publishers": [{
-						"name": "github",
-						"url": "git@github.com:gmbharath12/react-container-ios.git"
-					}]
-				}
-			}
-		}]
-	}],
-	"schemaVersion": "1.0.0"
+   "minErnVersion":"0.10.0",
+   "config":{
+      "binaryStore":{
+         "provider":"ern-binary-store",
+         "url":"http://localhost:3000"
+      },
+      "codePush":{
+         "entriesLimit":2
+      }
+   },
+   "nativeApps":[
+      {
+         "name":"walmartupdate",
+         "platforms":[
+            {
+               "name":"ios",
+               "versions":[
+                  {
+                     "name":"1.0",
+                     "isReleased":false,
+                     "binary":null,
+                     "yarnLocks":{
+
+                     },
+                     "nativeDeps":[
+
+                     ],
+                     "container":{
+                        "miniApps":[
+                           "git+ssh://git@gecgithub01.walmart.com:react-native/Cart.git#master"
+                        ],
+                        "nativeDeps":[
+                           "@walmart/react-native-ccm-api@1.0.6",
+                           "@walmart/react-native-walmart-location-api@0.0.2",
+                           "@walmart/react-native-walmartanalytics-api@0.19.1",
+                           "@walmart/react-native-walmartcookie-api@0.18.2",
+                           "@walmart/react-native-walmartheader-api@0.0.10",
+                           "@walmart/react-native-walmartnavigation-api@0.18.4",
+                           "@walmart/react-native-walmartstate-api@0.32.1",
+                           "@walmart/react-native-walmartuserauth-api@0.18.4",
+                           "react-native@0.42.0",
+                           "react-native-code-push@1.17.1-beta",
+                           "react-native-electrode-bridge@1.5.9"
+                        ],
+                        "jsApiImpls":[
+
+                        ]
+                     },
+                     "codePush":{
+
+                     },
+                     "containerVersion":"1.0.0"
+                  }
+               ],
+               "config":{
+                  "containerGenerator":{
+                     "name":"github",
+                     "targetRepoUrl":"git@github.com:gmbharath12/react-container-ios.git",
+                     "ignoreRnpmAssets":true,
+                     "containerVersion":"1.0.0",
+                     "publishers":[
+                        {
+                           "name":"github",
+                           "url":"git@github.com:gmbharath12/react-container-ios.git"
+                        }
+                     ]
+                  }
+               }
+            }
+         ]
+      }
+   ],
+   "schemaVersion":"1.0.0"
 }
