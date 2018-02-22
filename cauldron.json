@@ -56,13 +56,13 @@
                "config":{
                   "containerGenerator":{
                      "name":"github",
-                     "targetRepoUrl":"git@github.com:gmbharath12/react-container-ios.git",
+                     "targetRepoUrl":"https://github.com/gmbharath12/react-container-ios",
                      "ignoreRnpmAssets":true,
                      "containerVersion":"1.0.0",
                      "publishers":[
                         {
                            "name":"github",
-                           "url":"git@github.com:gmbharath12/react-container-ios.git"
+                           "url":"https://github.com/gmbharath12/react-container-ios"
                         }
                      ]
                   }
