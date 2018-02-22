@@ -32,10 +32,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "test",
-      "platforms": []
     }
   ],
   "schemaVersion": "1.0.0"
