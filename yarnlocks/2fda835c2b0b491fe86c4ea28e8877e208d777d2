@@ -2905,8 +2905,8 @@ mute-stream@0.0.7:
   resolved "http://npme.walmart.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
 nan@^2.3.0:
-  version "2.9.1"
-  resolved "http://npme.walmart.com/nan/-/nan-2.9.1.tgz#af88fcaee5292992c5b755121ceeaa74536fc228"
+  version "2.9.2"
+  resolved "http://npme.walmart.com/nan/-/nan-2.9.2.tgz#f564d75f5f8f36a6d9456cca7a6c4fe488ab7866"
 
 negotiator@0.5.3:
   version "0.5.3"
