@@ -51,7 +51,7 @@
                 "jsApiImpls": []
               },
               "codePush": {},
-              "containerVersion": "1.0.3"
+              "containerVersion": "1.0.6"
             },
             {
               "name": "2.0",
@@ -96,7 +96,7 @@
               "name": "github",
               "targetRepoUrl": "https://github.com/gmbharath12/react-container-ios",
               "ignoreRnpmAssets": true,
-              "containerVersion": "1.0.5",
+              "containerVersion": "1.0.6",
               "publishers": [
                 {
                   "name": "github",
