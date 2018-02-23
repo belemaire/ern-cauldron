@@ -61,6 +61,19 @@
               },
               "codePush": {},
               "containerVersion": "1.0.3"
+            },
+            {
+              "name": "2.0",
+              "isReleased": false,
+              "binary": null,
+              "yarnLocks": {},
+              "nativeDeps": [],
+              "container": {
+                "miniApps": [],
+                "nativeDeps": [],
+                "jsApiImpls": []
+              },
+              "codePush": {}
             }
           ],
           "config": {
