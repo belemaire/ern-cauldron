@@ -1,10 +1,6 @@
 {
   "minErnVersion": "0.10.0",
   "config": {
-    "binaryStore": {
-      "provider": "ern-binary-store",
-      "url": "http://localhost:3000"
-    },
     "codePush": {
       "entriesLimit": 2
     }
