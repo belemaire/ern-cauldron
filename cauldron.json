@@ -22,8 +22,7 @@
               "nativeDeps": [],
               "container": {
                 "miniApps": [
-                  "git+ssh://git@gecgithub01.walmart.com:b0m00ca/Cart.git#master",
-                  "git+ssh://git@gecgithub01.walmart.com:b0m00ca/Checkout.git#master"
+                  "git+ssh://git@gecgithub01.walmart.com:b0m00ca/Cart.git#master"
                 ],
                 "nativeDeps": [
                   "@walmart/react-native-ccm-api@1.0.6",
