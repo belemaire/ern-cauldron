@@ -17,12 +17,13 @@
               "isReleased": false,
               "binary": null,
               "yarnLocks": {
-                "container": "6d0a7bfd85c0fb918cb0b0718315ff9db242f7c1"
+                "container": "3536604e4a4b81efbe6d1498e1efd6c42acf30cb"
               },
               "nativeDeps": [],
               "container": {
                 "miniApps": [
-                  "git+ssh://git@gecgithub01.walmart.com:b0m00ca/Cart.git#master"
+                  "git+ssh://git@gecgithub01.walmart.com:b0m00ca/Cart.git#master",
+                  "git+ssh://git@gecgithub01.walmart.com:b0m00ca/SmartList.git#master"
                 ],
                 "nativeDeps": [
                   "@walmart/react-native-ccm-api@1.0.6",
@@ -47,7 +48,7 @@
                 "jsApiImpls": []
               },
               "codePush": {},
-              "containerVersion": "1.0.8"
+              "containerVersion": "1.0.9"
             },
             {
               "name": "2.0",
@@ -92,7 +93,7 @@
               "name": "github",
               "targetRepoUrl": "https://github.com/gmbharath12/react-container-ios",
               "ignoreRnpmAssets": true,
-              "containerVersion": "1.0.8",
+              "containerVersion": "1.0.9",
               "publishers": [
                 {
                   "name": "github",
