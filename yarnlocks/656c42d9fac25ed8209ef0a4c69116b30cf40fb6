@@ -4,7 +4,7 @@
 
 "@walmart/RNSmartList@git+ssh://git@gecgithub01.walmart.com:b0m00ca/SmartList.git#master":
   version "0.0.34"
-  resolved "git+ssh://git@gecgithub01.walmart.com:b0m00ca/SmartList.git#053128b6e45616e351533d961aae888404a7c88f"
+  resolved "git+ssh://git@gecgithub01.walmart.com:b0m00ca/SmartList.git#8a91033605a65cf57b4c0652f3971bfc056536b3"
   dependencies:
     "@walmart/react-native-walmart-location-api" "0.0.2"
     "@walmart/react-native-walmartanalytics-api" "0.19.1"

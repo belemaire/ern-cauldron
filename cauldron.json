@@ -17,7 +17,7 @@
               "isReleased": false,
               "binary": null,
               "yarnLocks": {
-                "container": "3536604e4a4b81efbe6d1498e1efd6c42acf30cb"
+                "container": "656c42d9fac25ed8209ef0a4c69116b30cf40fb6"
               },
               "nativeDeps": [],
               "container": {
@@ -48,7 +48,7 @@
                 "jsApiImpls": []
               },
               "codePush": {},
-              "containerVersion": "1.0.9"
+              "containerVersion": "1.0.10"
             },
             {
               "name": "2.0",
@@ -93,7 +93,7 @@
               "name": "github",
               "targetRepoUrl": "https://github.com/gmbharath12/react-container-ios",
               "ignoreRnpmAssets": true,
-              "containerVersion": "1.0.9",
+              "containerVersion": "1.0.10",
               "publishers": [
                 {
                   "name": "github",
